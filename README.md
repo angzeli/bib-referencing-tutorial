@@ -12,4 +12,4 @@ The tutorial explains:
 - How to connect it to your main `.tex` file  
 - How to use `\cite{}` and compile references  
 - Common bibliography styles (ACS, RSC, Nature, etc.)  
-- Bonus tips on organizing large `.bib` files and generating entries automatically
+- Bonus tips on organising large `.bib` files and generating entries automatically
