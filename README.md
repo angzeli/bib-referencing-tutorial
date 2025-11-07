@@ -13,7 +13,3 @@ The tutorial explains:
 - How to use `\cite{}` and compile references  
 - Common bibliography styles (ACS, RSC, Nature, etc.)  
 - Bonus tips on organizing large `.bib` files and generating entries automatically
-
----
-
-### 📁 Repository Structure
