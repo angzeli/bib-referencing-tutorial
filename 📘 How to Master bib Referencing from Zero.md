@@ -73,7 +73,7 @@ CdSe nanocrystals exhibit tunable PL.
 ```
 
 - When you compile twice in Overleaf, LaTeX automatically formats and lists all references.
-- - Note that only the papers _actually cited_ in the text will exist in the reference section at the end.
+- Note that only the papers _actually cited_ in the text will exist in the reference section at the end.
 
 ---
 
