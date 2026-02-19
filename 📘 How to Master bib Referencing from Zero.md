@@ -15,7 +15,7 @@ A .bib file (short for **bibliography**) is your personal **reference database**
 
 ## **2. Basic Project Structure**
 
-```json
+```python
 main.tex          ← your main report file
 references.bib    ← your reference database
 figures/          ← folder for images (optional)
@@ -35,7 +35,7 @@ In Overleaf, click **“New File” → name it references.bib**.
 
 Each reference is one BibTeX entry. Example:
 
-```json
+```python
 @article{qu2002cdse,
   author    = {Lidong Qu and Xiaogang Peng},
   title     = {Control of Photoluminescence Properties of CdSe Nanocrystals by Surface Modification},
@@ -56,7 +56,7 @@ Each reference is one BibTeX entry. Example:
 
 At the end of your document (before `\end{document}`):
 
-```json
+```python
 \bibliographystyle{chem-acs}  ← or unsrt, rsc, etc. for different ref style
 \bibliography{references}     ← matches your .bib file name (no extension)
 ```
@@ -67,7 +67,7 @@ At the end of your document (before `\end{document}`):
 
 Use the citation key from your .bib entry:
 
-```json
+```python
 According to Qu and Peng \cite{qu2002cdse}, 
 CdSe nanocrystals exhibit tunable PL.
 ```
@@ -102,7 +102,7 @@ CdSe nanocrystals exhibit tunable PL.
 
 In **main.tex**:
 
-```json
+```python
 \documentclass[a4paper,12pt]{article}
 \begin{document}
 
@@ -117,7 +117,7 @@ Quantum dots show size-dependent optical properties\cite{qu2002cdse}.
 
 In **references.bib**:
 
-```json
+```python
 @article{qu2002cdse,
   author  = {Lidong Qu and Xiaogang Peng},
   title   = {Control of Photoluminescence Properties of CdSe Nanocrystals by Surface Modification},
@@ -146,7 +146,7 @@ Simply copy the generated entry and paste it into your existing references.bib.
 
 If you have many references, group them with % comments for clarity:
 
-```json
+```python
 % --- Quantum Dots Section ---
 @article{qu2002cdse, ...}
 
